@@ -1,0 +1,188 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for each tier -->
+    <linearGradient id="tier0Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1f44;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3a6b;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="tier1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dab86e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="tier2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Drop shadow filter -->
+    <filter id="dropshadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#0a1f44">
+    Deepfake Defense Hierarchy
+  </text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    Crown Jewels Approach to Executive Protection
+  </text>
+
+  <!-- TIER 0 (Top of pyramid) -->
+  <polygon points="400,100 300,200 500,200" 
+           fill="url(#tier0Gradient)" 
+           stroke="#dab86e" 
+           stroke-width="3"
+           filter="url(#dropshadow)"/>
+  
+  <!-- TIER 1 (Middle of pyramid) -->
+  <polygon points="320,200 480,200 520,280 280,280" 
+           fill="url(#tier1Gradient)" 
+           stroke="#0a1f44" 
+           stroke-width="2"
+           filter="url(#dropshadow)"/>
+  
+  <!-- TIER 2 (Bottom of pyramid) -->
+  <polygon points="300,280 500,280 550,360 250,360" 
+           fill="url(#tier2Gradient)" 
+           stroke="#ffffff" 
+           stroke-width="2"
+           filter="url(#dropshadow)"/>
+
+  <!-- Crown icon for TIER 0 -->
+  <text x="400" y="125" text-anchor="middle" font-size="24" fill="#dab86e">👑</text>
+
+  <!-- TIER 0 Text -->
+  <text x="400" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+    TIER 0
+  </text>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    Business Critical Executives
+  </text>
+  <text x="400" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    C-Suite &amp; Board Members
+  </text>
+
+  <!-- TIER 1 Text -->
+  <text x="400" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0a1f44">
+    TIER 1
+  </text>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0a1f44">
+    Important but not business critical
+  </text>
+  <text x="400" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0a1f44">
+    Senior Management &amp; Department Heads
+  </text>
+
+  <!-- TIER 2 Text -->
+  <text x="400" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+    TIER 2
+  </text>
+  <text x="400" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    Standard Users &amp; Public Communications
+  </text>
+  <text x="400" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    General Staff &amp; External Facing
+  </text>
+
+  <!-- Protection Details -->
+  
+  <!-- TIER 0 Details Box -->
+  <rect x="50" y="400" width="210" height="150" fill="white" stroke="#0a1f44" stroke-width="2" rx="8" filter="url(#dropshadow)"/>
+  <rect x="50" y="400" width="210" height="25" fill="#0a1f44" rx="8"/>
+  <text x="155" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    🏆 TIER 0 Protection
+  </text>
+  <text x="60" y="440" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0a1f44">
+    Maximum Security:
+  </text>
+  <text x="60" y="455" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Multi-factor voice verification
+  </text>
+  <text x="60" y="470" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • AI-powered detection
+  </text>
+  <text x="60" y="485" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Immediate response protocols
+  </text>
+  <text x="60" y="500" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Weekly rotating auth phrases
+  </text>
+  <text x="60" y="520" font-family="Arial, sans-serif" font-size="9" font-style="italic" fill="#666">
+    Examples: CEO, CFO, COO whose
+  </text>
+  <text x="60" y="535" font-family="Arial, sans-serif" font-size="9" font-style="italic" fill="#666">
+    compromise triggers million-dollar losses
+  </text>
+
+  <!-- TIER 1 Details Box -->
+  <rect x="295" y="400" width="210" height="150" fill="white" stroke="#dab86e" stroke-width="2" rx="8" filter="url(#dropshadow)"/>
+  <rect x="295" y="400" width="210" height="25" fill="#dab86e" rx="8"/>
+  <text x="400" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0a1f44">
+    ⚖️ TIER 1 Protection
+  </text>
+  <text x="305" y="440" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0a1f44">
+    Enhanced Security:
+  </text>
+  <text x="305" y="455" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Streamlined verification
+  </text>
+  <text x="305" y="470" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Department-level protocols
+  </text>
+  <text x="305" y="485" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Regular training updates
+  </text>
+  <text x="305" y="500" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Escalation pathways
+  </text>
+  <text x="305" y="520" font-family="Arial, sans-serif" font-size="9" font-style="italic" fill="#666">
+    Examples: VPs, Directors with significant
+  </text>
+  <text x="305" y="535" font-family="Arial, sans-serif" font-size="9" font-style="italic" fill="#666">
+    authority but contained risk
+  </text>
+
+  <!-- TIER 2 Details Box -->
+  <rect x="540" y="400" width="210" height="150" fill="white" stroke="#228B22" stroke-width="2" rx="8" filter="url(#dropshadow)"/>
+  <rect x="540" y="400" width="210" height="25" fill="#228B22" rx="8"/>
+  <text x="645" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    👥 TIER 2 Protection
+  </text>
+  <text x="550" y="440" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0a1f44">
+    Standard Security:
+  </text>
+  <text x="550" y="455" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Basic detection tools
+  </text>
+  <text x="550" y="470" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Awareness training
+  </text>
+  <text x="550" y="485" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Standard verification
+  </text>
+  <text x="550" y="500" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    • Incident reporting
+  </text>
+  <text x="550" y="520" font-family="Arial, sans-serif" font-size="9" font-style="italic" fill="#666">
+    Examples: General staff, customer
+  </text>
+  <text x="550" y="535" font-family="Arial, sans-serif" font-size="9" font-style="italic" fill="#666">
+    service with manageable exposure
+  </text>
+
+  <!-- Implementation Timeline -->
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0a1f44">
+    Implementation: Tier 0 (30 days) → Tier 1 (90 days) → Tier 2 (180 days) | 78% attack reduction → 94% full protection
+  </text>
+
+  <!-- Copyright -->
+  <text x="400" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">
+    © 2025 James Cameron | Big Rock Intelligence | Deepfake Defense Series
+  </text>
+</svg>
